@@ -55,7 +55,7 @@ a {
 }
 
 button {
-  background-color:#3882F6;
+  background-color:#3B82F6;
   color: #F9FAFB;
   border-radius: 6px;
   border: none;
@@ -67,4 +67,33 @@ button {
 .hero-container img {
   width: 800px;
   margin-left: 40px;
+}
+
+.section-information {
+  display: flex;
+  flex-direction: column;
+}
+
+#information-text {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: block;
+  text-align: center;
+  width: 100px;
+}
+.image-container {
+  width: 100px;
+  height: 100px;
+  border-color: blue;
+  border: #3B82F6 solid;
+  margin: auto;
+  
 }
