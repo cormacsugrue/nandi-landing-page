@@ -4,21 +4,23 @@ body {
   height: 100vh;
   margin: 0;
   font-family: Roboto, sans-serif;
+  font-size: small;
 }
 
 .section-one {
   display: flex;
   flex-direction: column;
-  padding: 0 100px;
+  padding: 0 100px 0 100px;
   color: #F9FAFB;
   background-color: #1F2937;
+  padding-bottom: 90px ;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   margin-top: 18px;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 
 .header-links {
@@ -34,20 +36,33 @@ body {
   margin: 0;
 }
 
+.hero-text p {
+  margin: 0 0 12px;
+}
+
 h1 {
   margin-top: 0px;
+  margin-bottom: 5px;
   font-weight: 600;
   font-size: 35px;
 }
 
 a {
   text-decoration: none;
+  color: #F9FAFB;
+  font-size: 10px;
+}
+
+button {
+  background-color:#3B82F6;
+  color: #F9FAFB;
+  border-radius: 6px;
+  border: none;
+  font-size: small;
+  padding: 5px 28px;
+
 }
 
 .hero-container img {
   width: 800px;
-}
-
-.hero-container button {
-
 }
