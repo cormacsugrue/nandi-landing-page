@@ -24,7 +24,8 @@ body {
 }
 
 .header-links {
-
+  display: flex;
+  gap: 10px;
 }
 
 .hero-container {
@@ -65,4 +66,5 @@ button {
 
 .hero-container img {
   width: 800px;
+  margin-left: 40px;
 }
