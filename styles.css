@@ -36,6 +36,7 @@ body {
 
 .hero-text {
   margin: 0;
+  flex: 1;
 }
 
 .hero-text p {
@@ -66,9 +67,14 @@ button {
 }
 
 .hero-container img {
-  width: 800px;
+  width: 550px;
   margin-left: 40px;
+  background-color: #6D747D ;
+  text-align: center;
+  flex: 1;
+  line-height: 225px;
 }
+
 
 .section-information {
   display: flex;
