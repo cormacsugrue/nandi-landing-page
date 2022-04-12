@@ -106,6 +106,27 @@ button {
   height: 200px;
   border: #3B82F6 solid;
   border-radius: 10px;
-  margin: auto;
-  
+  margin: auto; 
+}
+
+.section-quote {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 100px;
+  padding: 150px 320px;
+  background-color: #E5E7EB;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 36px;
+}
+
+.quote-citation {
+  font-weight: 600;
+  font-size: 24px;
+  color: #1f2937;
+  text-align: end;
 }
